@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="">
+		<meta charset="utf-8">
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+		<title>iNQUIS</title>
+		
+		<link href="../static/css/main.css" rel="stylesheet" type="text/css" />
+		
+		
+		<div id = "navheader">iNQUIS</div>
+		<div id = "navslogan">Education Analytics</div>
+	
+		<ul id = "navbar">
+			<li><a href="/">Assessment Tracking</a><ul class="noJS">
+				<li><a href="/">Overall</a></li>
+				<li><a href="/grade">By Grade</a></li>
+				<li><a href="/teacher/all">By Teacher</a></li>
+				<li><a href="/">By Student</a></li></ul>
+			</li>
+			<li><a href="/">State Test Predictions</a></li>
+		</ul>
+
+
+		
+	</head>
+
+	<body>
+		<!-- <li>Overall</li>
+		<li>By Grade</li>
+		<li>By Teacher By Grade</li>
+		<li>By Student By Teacher</li> -->
+		{% block for %}
+		{% endblock %}
+	</body>
+</html>
