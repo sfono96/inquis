@@ -13,29 +13,18 @@
 		
 		<link href="../static/css/main.css" rel="stylesheet" type="text/css" />
 		
-		
 		<div id = "navheader">iNQUIS</div>
-		<div id = "navslogan">Education Analytics</div>
+		<div id = "navslogan">Weekly Assessment Tracking</div>
 	
 		<ul id = "navbar">
-			<li><a href="/">Assessment Tracking</a><ul class="noJS">
-				<li><a href="/">Overall</a></li>
-				<li><a href="/grade">By Grade</a></li>
-				<li><a href="/teacher/all">By Teacher</a></li>
-				<li><a href="/">By Student</a></li></ul>
-			</li>
-			<li><a href="/">State Test Predictions</a></li>
+			<li><a href="/grade/all">By Grade</a></li>
+			<li><a href="/crt_group/all">By CRT Group</a></li>
+			<li><a href="/teacher/all">By Teacher</a></li>
+			<li><a href="/">By Student</a></li>
 		</ul>
-
-
-		
 	</head>
 
 	<body>
-		<!-- <li>Overall</li>
-		<li>By Grade</li>
-		<li>By Teacher By Grade</li>
-		<li>By Student By Teacher</li> -->
 		{% block for %}
 		{% endblock %}
 	</body>

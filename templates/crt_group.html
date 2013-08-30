@@ -3,9 +3,9 @@
 {% block for %}
 <br><br><br>
 
-<ul id ="grade-by-crt">
-	{% for c in crt_groups %}
-		<li><a href="/grade/{{c}}"><button type="button">{{c}}</button></a></li>
+<ul id ="crt-by-grade">
+	{% for g in grades %}
+		<li><a href="/crt_group/{{g}}"><button type="button">{{g}}</button></a></li>
 	{% endfor %}
 </ul>
 

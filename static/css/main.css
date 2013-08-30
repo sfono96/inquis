@@ -10,6 +10,7 @@
 }
 #navbar {
     float: left;
+    position: relative;
 }
 #navbar > li {
     float: left;
@@ -48,54 +49,12 @@
     background: #E6E6FA;
     color: #000;
 }
- 
-/* Submenu
-------------------------------------------*/
-#navbar ul {
-    background: #E6E6FA;
-}
-#navbar ul li a {
-    color: #000;
-}
-#navbar ul li:hover a {
-    background: #D3D3D3;
-}
 
-#grade-selectors,
-#grade-selectors ul {list-style: none;}
-#grade-selectors {float: left;}
-#grade-selectors li a {
-    display: block;
-    height: 2em;
-    line-height: 2em;
-    padding: 0 1.5em;
-    text-decoration: none;
-}
-#grade-selectors ul {
-    position: absolute;
-    display: none;
-    z-index: 999;
-}
-#grade-selectors ul li a {
-    width: 80px;
-}
-#grade-selectors li:hover ul.noJS {
-    display: block;
-}
-#grade-selectors {
-    font-family: Arial;
-    font-size: 12px;
-    /*background: #2f8be8;*/
-}
-/*#navbar > li > a {
-    color: #fff;
-    font-weight: bold;
-}
-#navbar > li:hover > a {
-    background: #E6E6FA;
-    color: #000;
-}
-*/
+/* crt group selectors
+------------------------------------------*/ 
+#grade-by-crt ul {list-style: none;}
+
+
 .actions, .chart {
     margin: 15px auto;
     width: 34px;
